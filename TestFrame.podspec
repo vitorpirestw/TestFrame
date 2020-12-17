@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TestFrame"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "TestFrame"
   spec.description  = <<-DESC
                     Just testing...
@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "http://EXAMPLE/TestFrame"
   spec.license      = "ISC"
   spec.author             = { "Vitor Pires" => "vitor.pires@thoughtworks.com" }
-  spec.source       = { :git => "https://github.com/vitorpirestw/TestFrame.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/vitorpirestw/TestFrame.git", :tag => spec.version, :branch => "test_branch" }
 
   spec.exclude_files = "Classes/Exclude"
 
